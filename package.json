@@ -1,6 +1,6 @@
 {
   "name": "@postlight/mercury-parser",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Mercury transforms web pages into clean text. Publishers and programmers use it to make the web make sense, and readers use it to read any web article comfortably.",
   "author": "Postlight <mercury@postlight.com>",
   "homepage": "https://mercury.postlight.com",
@@ -93,7 +93,7 @@
     "lint-staged": "^8.1.0",
     "mocha": "^6.0.0",
     "nock": "^10.0.6",
-    "ora": "^3.0.0",
+    "ora": "^4.0.0",
     "prettier": "^1.15.3",
     "remark-cli": "^7.0.0",
     "remark-lint": "^6.0.4",
@@ -126,7 +126,7 @@
     "url": "^0.11.0",
     "valid-url": "^1.0.9",
     "wuzzy": "^0.1.4",
-    "yargs-parser": "^13.0.0"
+    "yargs-parser": "^14.0.0"
   },
   "bundleDependencies": [
     "jquery",

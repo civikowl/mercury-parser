@@ -105,14 +105,6 @@ function absolutizeSet($, rootUrl, $content) {
   });
 }
 
-function makeLinksAbsolute$$1($content, $, url) {
-  ['href', 'src'].forEach(function (attr) {
-    return absolutize($, url, attr, $content);
-  });
-  absolutizeSet($, url, $content);
-  return $content;
-}
-
 // strips all tags from a string of text
 
 // Given a node, determine if it's article-like enough to return
